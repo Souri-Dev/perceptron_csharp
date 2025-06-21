@@ -40,7 +40,8 @@ namespace Activity3
                         BackColor = Color.White,
                         Tag = 0
                     };
-                    btn.Click += (s, e) => {
+                    btn.Click += (s, e) =>
+                    {
                         btn.BackColor = (int)btn.Tag == 0 ? Color.Black : Color.White;
                         btn.Tag = (int)btn.Tag == 0 ? 1 : 0;
                     };
